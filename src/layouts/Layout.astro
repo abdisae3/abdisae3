@@ -1,0 +1,33 @@
+---
+import Footer from '../components/Footer.astro'
+import '../style/mobile.css';
+import '../style/desctop.css';
+import Header from '../components/Header.astro';
+interface Props {
+	title: string;
+}
+import '@fontsource-variable/bodoni-moda'
+import '@fontsource/smooch'
+const { title } = Astro.props;
+---0
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Astro description" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+	</head>
+	<body>
+		<Header/>
+		<slot >
+		</slot>
+		<Footer/>
+		<script>
+			import "../script/script.js"
+		</script>
+	</body>
+</html>
