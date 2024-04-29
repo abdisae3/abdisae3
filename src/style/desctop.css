@@ -64,23 +64,29 @@
 			display: none;
 		}
 		/*about style*/
-		.about{
+		.about-page{
 			padding-top: 80px;
+			font-size: 20px;
 		}
-		.about h1{
-
+		.about{
+			float:left;
+			height: 400px !important;
+			border-radius: 100px;
+			padding-right: 20px;
 		}
-		.about .row{
-			flex-direction: row;
-			margin-bottom: 2px;
+		.tailor{
+			margin-left: 4px;
+			float: right;
+			border-radius: 10px;
+			width: 360px !important;
+			height: 400px !important;
+		
 		}
-		.col {
-			display: block;
-			position: relative;
-			margin: 1rem;
-			text-align: center;
+		.music{
+			float: right;
+			height: 250px !important;
+			border-radius: 10px;
+			margin-left: 4px;
 		}
-		 img{
-			
-		}
+		
 	}
