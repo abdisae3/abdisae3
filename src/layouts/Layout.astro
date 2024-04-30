@@ -3,13 +3,13 @@ import Footer from '../components/Footer.astro'
 import '../style/mobile.css';
 import '../style/desctop.css';
 import Header from '../components/Header.astro';
+import '@fontsource-variable/bodoni-moda';
+import '@fontsource/smooch';
 interface Props {
 	title: string;
-}
-import '@fontsource-variable/bodoni-moda'
-import '@fontsource/smooch'
+};
 const { title } = Astro.props;
----0
+---
 
 <!doctype html>
 <html lang="en">
@@ -24,6 +24,7 @@ const { title } = Astro.props;
 	<body>
 		<Header/>
 		<slot >
+		default value is for slot is called....
 		</slot>
 		<Footer/>
 		<script>

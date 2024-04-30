@@ -106,7 +106,6 @@ header{
 	top: 15px;
 }
 nav{
-
 	width: 100%;
 	display: flex;
 	position: absolute;
@@ -144,6 +143,11 @@ nav{
 		box-shadow: 5px 5px 5px rgba(100, 100, 0, 0.7);
 	}
 
+	.nav-link a.active {
+		opacity: 80%;
+		background: #cdcdcd;
+		border-radius: 10px;
+	}
 
 	.expanded{
 		display: block;

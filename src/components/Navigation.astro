@@ -1,5 +1,13 @@
+---
+const navLinks : {label:string; href:string}[]=[
+	{label:'Home', href:'/'},
+	{label:'About', href:'/about'},
+	{label:'Project', href:'/project'},
+	{label:'Contact', href:'/contact'},
+	];
+---
 <div class="nav-link">
-	<a href="/">Home</a>
-	<a href="/about">About</a>
-	<a href="/history">Histori</a>
+	{navLinks.map(({label,href})=>(
+		<a href={href} aria-current={Astro.url.pathname === href} class:list={['link',{active: Astro.url.pathname === href || (href !== '/'&& Astro.url.pathname.startsWith(href)),}]}>{label}</a>
+		))};
 </div>
