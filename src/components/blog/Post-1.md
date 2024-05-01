@@ -15,7 +15,7 @@ Terimakasih sebelumnya karna sudah mau mampir dan meluangkan waktu untuk membaca
 
 Saya berharap kamu mau mengenal saya lebih banyak. 
 
-Saya terlahir dengan nama Fauzi , kamu bisa panggil saya  dengan nama itu.
+Saya terlahir dengan nama __*Fauzi*__ , kamu bisa panggil saya  dengan nama itu.
 
 Sampai saat ini saya masih aktif sebagai seorang penjahit profesional,dan saya sudah banyak pengalaman disitu.
 

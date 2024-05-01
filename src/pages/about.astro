@@ -1,5 +1,3 @@
-
-
 ---
 import Post from '../components/blog/Post-1.md';
 import Layout from '../layouts/Layout.astro';
@@ -8,11 +6,13 @@ const aboutMe = await Astro.glob('../components/blog/*.md');
 ---
 
 <Layout title={pageTitle}>
-	<div class="about-page">
-		<h1>
-		{aboutMe[0].frontmatter.title}
-		</h1>
-		<Post/>
-	</div>	
+	<div class="wrapper">
+		<div class="about-page">
+			<h1>
+			{aboutMe[0].frontmatter.title}
+			</h1>
+			<Post/>
+		</div>	
+	</div>
 </Layout>
 

@@ -1,4 +1,7 @@
 	@media screen and (min-width: 636px){
+		p{
+			font-size: 16px;
+		}
 		/* content style */
 		.content{
 			display: flex;
@@ -26,7 +29,18 @@
 			width: 240px;
 			top: 0;
 		}
-		
+		section{
+			margin: 0;
+			padding: 0;
+			background: rgba(200, 200, 200, 0.5);
+		}
+		.wrapper{
+			display: flex;
+			justify-content: center;
+		}
+		.wrap{
+			width: 70%;
+		}
 		/* content style end */
 		nav{
 			justify-content: space-around;
@@ -66,7 +80,7 @@
 		/*about style*/
 		.about-page{
 			padding-top: 80px;
-			font-size: 20px;
+			width: 80%;
 		}
 		.about-page h1{
 			text-align: center;
@@ -92,8 +106,8 @@
 			margin-left: 4px;
 		}
 		footer{
-			display: flex;
 			width: 100%;
-			z-index: 2;
+			column-count: 3;
+			justify-content: space-around;
 		}
 	}
