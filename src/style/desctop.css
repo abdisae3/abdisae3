@@ -91,5 +91,9 @@
 			border-radius: 10px;
 			margin-left: 4px;
 		}
-		
+		footer{
+			display: flex;
+			width: 100%;
+			z-index: 2;
+		}
 	}
